@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url(photos/12-Biggest.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style:none;
+    margin-top: 20px;
+}
+
+.main-nav
+{
+    display: inline-flex;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15pxs;
+}
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+.logo img
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+ #re
+{
+background-color: rgb(228, 207, 223);
+background-image: url(photos/construction-.png);
+font-size: 00.5cm;
+}
+#ty
+{
+    background-color: rgb(113, 158, 202);
+   nav-right: current;
+}
+
+#his
+{
+background-image:url(photos/par.jpg);
+nav-right: current;
+font-size: 0.5cm;
+}
+#def
+{
+    background-color: rgb(238, 189, 97);
+    nav-right: current;
+    background-image: url(photos/great_places_to_find_construction_work.jpg);
+    font-size: 00.5cm;
+    font-weight: bolder;
+}
+#add
+{
+    nav-right: auto;
+}
